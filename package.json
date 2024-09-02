@@ -1,0 +1,19 @@
+{
+  "name": "ViteFederation",
+  "version": "1.0.0",
+  "workspaces": [
+    "project1",
+    "project2"
+  ],
+  "scripts": {
+    "install": "npm install --workspaces",
+    "serve": "npm run serve --workspaces",
+    "build": "npm run build --workspaces",
+    "stop": "kill-port --port 5000,5001",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "@originjs/vite-plugin-federation": "workspace:*",
+    "kill-port": "^2.0.1"
+  }
+}
