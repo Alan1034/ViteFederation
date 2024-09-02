@@ -1,5 +1,5 @@
 {
-  "name": "ViteFederation",
+  "name": "ViteFederationFrame",
   "version": "1.0.0",
   "workspaces": [
     "project1",
